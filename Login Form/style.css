@@ -72,10 +72,10 @@
 }
 /* register form container */
 .form-container form {
-    padding: 20px;
+    padding: 50px;
     border-radius: 5px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
-    background: #fff;
+    background: #800000;
     text-align: center;
     width: 500px;
 }
@@ -84,7 +84,7 @@
     font-size: 30px;
     text-transform: uppercase;
     margin-bottom: 10px;
-    color: #333;
+    color: #FFFFF0;
 }
 /* register textboxes */
 .form-container form input {
@@ -93,27 +93,32 @@
     font-size: 17px;
     margin: 8px 0;
     background: #eee;
+    border-radius: 5px;
+}
+.form-container form input:hover{
+    background: lightgray;
 }
 /* register now button */
 .form-container form .form-btn{
-    background: #fbd0d9;
-    color: maroon;
+    background: #F9A602;
+    color: #000080;
     text-transform: capitalize;
     font-size: 20px;
     cursor: pointer;
+    border-radius: 5px;
 }
 
 .form-container form .form-btn:hover{
-    background: maroon;
+    background: #F7B500;
     color:#fff;
 }
 
-.form-container form p{
+.form-container form a, p{
     margin-top: 10px;
     font-size: 20px;
-    color: #333;
+    color: #FFFFF0;
 }
 
 .form-container form a:hover{
-    color: maroon;
+    color: #F9A602;
 }
